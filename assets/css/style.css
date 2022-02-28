@@ -1,0 +1,85 @@
+:root {
+    --Light-blue: rgb(180, 218, 253);
+    --dark-blue:rgb(91, 91, 255);
+    --tan:rgb(255, 217, 168);
+}
+
+body {
+    background-color: var(--Light-blue);
+}
+
+h1 {
+    font-size: 40px;
+    color: var(--tan);
+    
+
+    
+}
+
+h2{
+    font-size: 30px;
+    color:var(--tan);
+
+}
+
+header {
+    padding: 40px;
+    border: 10px solid var(--tan) ;
+    background-image: url('../images/hero.jpeg');
+    background-size: 600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    color:var(--tan);
+}
+
+
+.navigation {
+    display: flex;
+    position: relative;
+    left: 200px;
+}
+
+.pfp {
+    padding: 1px;
+    margin: 10px;
+    width: 200px;
+    height: 300px;
+}
+
+.discription {
+    font-size: 17px;
+    position: relative;
+    left: 250px;
+    bottom: 330px;
+}
+
+.about-danh {
+    padding: 40px;
+    border: 10px solid var(--tan) ;
+    background-color: var(--dark-blue);
+    color:var(--tan);
+}
+
+.danh-work {
+    padding: 40px;
+    border: 10px solid var(--tan) ;
+    background-color: var(--dark-blue);
+    color:var(--tan);
+}
+
+.danh-skills {
+    padding: 40px;
+    border: 10px solid var(--tan) ;
+    background-color: var(--dark-blue);
+    color:var(--tan);
+}
+
+.contact-danh {
+    padding: 40px;
+    border: 10px solid var(--tan) ;
+    background-color: var(--dark-blue);
+    color:var(--tan);
+}
