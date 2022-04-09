@@ -1,86 +1,94 @@
-:root {
-    --Light-blue: rgb(180, 218, 253);
-    --dark-blue:rgb(91, 91, 255);
-    --tan:rgb(255, 217, 168);
+@font-face {
+    font-family: "salt";
+    src: url(../fonts/Salt-font/Salt.ttf);
+}
+@font-face {
+    font-family: 'salt';
+    font-weight: bold;
+    src: url(../fonts/Salt-font/Salt\ Bold.ttf);
 }
 
-body {
-    background-color: var(--Light-blue);
+@font-face {
+    font-family: "cymbria";
+    src: url(../fonts/Cymbria-Regular.otf);
+}
+@font-face {
+    font-family: 'cymbria';
+    font-weight: bold;
+    src: url(../fonts/Cymbria-Bold.otf);
 }
 
-h1 {
-    font-size: 40px;
-    color: var(--tan);
-    
-
-    
+@font-face {
+    font-family: 'cymbria-tex';
+    font-style: textured;
+    src: url(../fonts/Cymbria-Textured.otf);
 }
 
-h2{
-    font-size: 30px;
-    color:var(--tan);
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@100&display=swap');
 
+
+.hero {
+   background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0)), url("../images/202978.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
 }
 
-header {
-    padding: 40px;
-    border: 10px solid var(--tan) ;
-    background-image: url('../images/hero.jpeg');
-    background-size: 600px;
+.hero-body h1 {
+   font-family: 'cymbria-tex', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 8vw;
+    font-weight: bold;
+    color:azure;
+}
+
+nav a {
+    font-family: 'cymbria-tex', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+main {
+    background-color: #000;
+    font-family: 'Lato', sans-serif;
+} 
+
+.section {
+    padding: 20px;
+}
+
+
+.card {
+    border: rgba(75, 67, 67, 0.945) solid 6px;
+}
+
+/*.search-stuff {
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+  }
+*/
+ 
+  
+.logos {
+    height: 75px;
+    position: relative;
     flex-wrap: wrap;
-    align-items: flex-start;
-    background-attachment: fixed;
-    color:var(--tan);
+    margin: 8px;
+    padding: 0px;
+}
+/* About Page and Privacy Policy Page */
+p2 {
+    color: white;
+
 }
 
-
-nav ul li{
-    display: flex;
-    position: relative;
-    justify-content: flex-end;
-    left: 200px;
+h4 {
+    color: white;
+    font-style: bold;
 }
 
-.pfp {
-    padding: 1px;
-    margin: 10px;
-    width: 200px;
-    height: 300px;
+.copywrite-agent {
+    color: white;
 }
 
-.discription {
-    font-size: 17px;
-    position: relative;
-    left: 250px;
-    bottom: 330px;
-}
-
-.about-danh {
-    padding: 40px;
-    border: 10px solid var(--tan) ;
-    background-color: var(--dark-blue);
-    color:var(--tan);
-}
-
-.danh-work {
-    padding: 40px;
-    border: 10px solid var(--tan) ;
-    background-color: var(--dark-blue);
-    color:var(--tan);
-}
-
-.danh-skills {
-    padding: 40px;
-    border: 10px solid var(--tan) ;
-    background-color: var(--dark-blue);
-    color:var(--tan);
-}
-
-.contact-danh {
-    padding: 40px;
-    border: 10px solid var(--tan) ;
-    background-color: var(--dark-blue);
-    color:var(--tan);
+.mission {
+    text-align: center;
 }
